@@ -18,3 +18,16 @@ theme:
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
+
+  features: 
+    - navigation.sections
+
+nav: 
+  - Notebook: 
+    - Notebook/git.md
+
+  - Labs: 
+    - Labs/new.md
+
+repo_url: https://github.com/sabonita/personal-site
+repo_name: sabonita/personal-site
