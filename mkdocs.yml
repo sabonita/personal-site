@@ -22,12 +22,19 @@ theme:
   features: 
     - navigation.sections
 
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
 nav: 
   - Notebook: 
     - Notebook/git.md
+    - Notebook/docker.md
+    - Notebook/HTML.md
 
   - Labs: 
-    - Labs/HomeLab.md
+    - Labs/ParrotOS for HTB.md
 
 site_url: https://personal-site.sabonita.net/
 repo_url: https://github.com/sabonita/personal-site
